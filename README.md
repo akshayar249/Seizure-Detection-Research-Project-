@@ -51,7 +51,7 @@ This project focuses on detecting seizures from EEG recordings using only **freq
 |------|-------------|
 | `frequency_model.py` | Python script with training pipeline |
 | `Frequency_Domain_EEG_Analysis_Report.docx` | Project report with graph explanations |
-| `README.md` | You're reading it :) |
+| `README.md` | current file |
 
 ---
 
