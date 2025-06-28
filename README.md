@@ -12,11 +12,6 @@ This branch focuses on implementing and comparing **Logistic Regression** and **
 | `ml_KNN.py`                 | KNN classifier with confusion matrix evaluation   |
 | `KNN_vs_LReg_param_tuning.py` | Accuracy comparison by varying `k` (KNN) and `C` (LR) |
 
----
-
- 📊 Dataset
-
-All scripts use the `chbmit_features_full.csv` file (not included in this branch) which contains pre-extracted EEG signal features and seizure labels.
 
  🧠 Model Overview
 
