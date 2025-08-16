@@ -1,4 +1,5 @@
 EEG-Based Seizure Detection
+
 📌 Overview
 
 This repository contains the implementation of an automated EEG-based seizure detection framework that combines advanced signal preprocessing techniques with machine learning and deep learning models. The system is designed to classify EEG signals into seizure and non-seizure states, providing a scalable solution for real-time monitoring and clinical applications.
@@ -56,27 +57,6 @@ Pediatric epilepsy patient recordings
 256 Hz sampling rate, 24 patients, ~900 hours of EEG data
 
 Includes seizure onset/offset annotations
-
-🚀 Installation & Setup
-
-Clone this repository:
-
-git clone https://github.com/your-username/EEG-Seizure-Detection.git
-cd EEG-Seizure-Detection
-
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Download the CHB-MIT EEG dataset from PhysioNet.
-Place the dataset inside the data/ folder.
-
-Run preprocessing and training:
-
-python preprocess.py
-python train.py --model svm   # options: svm, knn, logistic, rf, cnn_lti, cnn_bilstm, sgcn, cnn_dnn
 
 📊 Results
 Model	Input	Accuracy	Key Strengths
